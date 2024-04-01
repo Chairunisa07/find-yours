@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  background-color: #fffaf3;
+  font-family: "Poppins", sans-serif;
+}
+
+.teks {
+  color: #211c6a;
+  font-size: 55px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+strong {
+  background: linear-gradient(to right, #2f8fcd, #aae0ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.desc {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button {
+  background: linear-gradient(to bottom, #211c6a, #2f90ce);
+  border-radius: 11px;
+  margin-left: 20px;
+}
+
+#data-content {
+  height: 250px;
+  width: 200px;
+  margin: 30px 10px;
+  border-radius: 15px;
+  background-color: #211c6a;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  padding: 5px 30px;
+  padding-top: 25px;
+}
+#box-data {
+  background-color: #fffaf3;
+  height: 100px;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+#data-text {
+  padding-top: 30px;
+  color: white;
+}
+
+.teks-h2 {
+  font-size: 40px;
+}
+
+.job-vacancy {
+  background-color: #3190ce;
+  border-radius: 11px;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box-img {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 11px;
+}
+
+.button-detail {
+  background-color: #211c6a;
+}
+
+.job-container {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.job-vacancy {
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  height: auto;
+  max-height: 400px; 
+  overflow-y: auto; 
+  justify-content: center;
+  align-items: center;
+}
+
+.job-vacancy img {
+  max-width: 100%;
+  height: auto;
+}
+
+.job-vacancy .row {
+  margin-bottom: 5px;
+}
+
+.contact-container {
+  background-color: #211c6a;
+  color: white;
+  width: 100%;
+  border-radius: 11px;
+}

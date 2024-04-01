@@ -1,0 +1,30 @@
+/* navbar.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.custom-navbar {
+  background: linear-gradient(to right, #211c6a, #2f90ce);
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-collapse {
+  display: flex;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s;
+}
+
+.navbar-link:hover {
+  border-bottom-color: #211c6a;
+  color: white;
+}
